@@ -1,0 +1,17 @@
+{
+    "name":"Test",
+    "version":"0.0.1",
+    "manifest_version":3,
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "webRequest",
+        "scripting"
+      ],
+    "background": {
+        "service_worker": "webcam.js"
+      },
+    "action":{
+        "default_popup":"popup.html"
+    }
+}

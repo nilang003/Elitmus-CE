@@ -1,0 +1,26 @@
+form{
+    margin: 5px 15px;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input{
+    display: block;
+}
+
+#tandc{
+    display: inline;
+    vertical-align: middle;
+}
+
+#submitBtn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
